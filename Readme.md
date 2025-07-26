@@ -1,6 +1,5 @@
-# 🌱 **AICTE Edunet Green-Skill Internship: Supply Chain GHG Emissions Analysis** 🚀
-
-_A comprehensive toolkit for analyzing and visualizing supply chain greenhouse gas emissions across US industries._
+# 📘 **AICTE Edunet Green-Skill Internship: Supply Chain GHG Emissions Analysis**  
+_Tracking, Cleaning, and Visualizing US Industry GHG Emissions_ 🌱🌍
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Version](https://img.shields.io/badge/version-1.0-blue)
@@ -11,33 +10,28 @@ _A comprehensive toolkit for analyzing and visualizing supply chain greenhouse g
 
 ---
 
-## 📚 Table of Contents
+## 🧾 Project Overview
 
-- [✨ Features](#-features)
-- [🚀 Getting Started](#-getting-started)
-- [🛠️ Usage Instructions](#️-usage-instructions)
-- [📂 Folder Structure](#-folder-structure)
-- [📸 Screenshots / Demo](#-screenshots--demo)
-- [🧪 Testing](#-testing)
-- [📦 Deployment](#-deployment)
-- [🤝 Contributing](#-contributing)
-- [🧾 License](#-license)
-- [🙋 FAQ](#-faq)
-- [📞 Contact / Support](#-contact--support)
-- [📝 Changelog / Roadmap](#-changelog--roadmap)
-- [🌐 Community Links](#-community-links)
+> **Goal:**  
+> Analyze and visualize supply chain greenhouse gas (GHG) emissions across US industries using open data and Python tools.  
+> This 4-week internship project focuses on data cleaning, exploratory analysis, modeling, and reporting to support green skills and sustainability.  
+>  
+> **Duration:** _4 Weeks_  
+> **Tech Stack:** Python, Pandas, Seaborn, Matplotlib, Jupyter Notebook
 
 ---
 
-## ✨ Features
+## 📅 Weekly Progress Tracker
 
-- 📊 **Industry-wise GHG Emission Analysis**
-- 🧹 **Automated Data Cleaning**
-- 📈 **Interactive Visualizations**
-- 🏷️ **Easy-to-understand Data Summaries**
-- 🛠️ **Beginner-friendly Jupyter Notebook**
-- 🔍 **Top 10 Emitting Industries Highlighted**
-- 🗂️ **Ready-to-use CSV Dataset**
+| Week      | Status      | Description                                      |
+|-----------|------------|--------------------------------------------------|
+| **Week 1** | ✅ Completed | Data cleaning, EDA, and basic visualization      |
+| **Week 2** | ⏳ In progress | Model selection and training                     |
+| **Week 3** | ❌ Not started | Advanced analytics, dashboard, and reporting      |
+| **Week 4** | ❌ Not started | Final review, documentation, and deployment      |
+
+**Progress Bar:**  
+`[■■■■□□□□] 2/4 weeks completed`
 
 ---
 
@@ -46,7 +40,7 @@ _A comprehensive toolkit for analyzing and visualizing supply chain greenhouse g
 ### Prerequisites
 
 - Python 3.8+
-- [pip](https://pip.pypa.io/en/stable/)
+- [pip](https://pip.pypa.io/en/stable/) or [conda](https://docs.conda.io/en/latest/)
 - Jupyter Notebook
 
 ### Installation
@@ -57,7 +51,7 @@ cd green-skill-internship
 pip install -r requirements.txt
 ```
 
-### Setup Guide
+### Setup Instructions
 
 1. **Open the project folder in VS Code or your favorite IDE.**
 2. **Launch Jupyter Notebook:**
@@ -68,9 +62,25 @@ pip install -r requirements.txt
 
 ---
 
+## 📊 Features Implemented
+
+### Basic Features
+- 📥 Load and preview US supply chain GHG emissions dataset
+- 🧹 Data cleaning: handle missing values, drop duplicates, remove unused columns
+- 📋 List and inspect column names and data types
+- 📊 Basic visualizations: bar charts, histograms
+
+### Advanced Features
+- 🔍 Top 10 industries by emission factors
+- 📈 Distribution analysis of emission values
+- 🏷️ Data quality scoring and filtering (planned)
+- 🛠️ Modular notebook for easy extension
+
+---
+
 ## 🛠️ Usage Instructions
 
-### Basic Usage
+### Run the Analysis
 
 ```python
 import pandas as pd
@@ -100,11 +110,11 @@ plt.xticks(rotation=40)
 plt.show()
 ```
 
-> **Tip:** For advanced analysis, modify the notebook to filter by year, substance, or reliability scores.
+> **Note:** For advanced analysis, modify the notebook to filter by year, substance, or reliability scores.
 
 ---
 
-## 📂 Folder Structure
+## 📂 Project Structure
 
 ```
 AICTE Edunet Green-Skill Internship/
@@ -116,18 +126,9 @@ AICTE Edunet Green-Skill Internship/
 ├── requirements.txt             # Python dependencies
 └── ...
 ```
-
 - **Week1_GHG/**: Contains all data and analysis notebooks.
 - **Readme.md**: This file.
 - **requirements.txt**: List of required Python packages.
-
----
-
-## 📸 Screenshots / Demo
-
-![Demo Placeholder](https://via.placeholder.com/800x400?text=Demo+Screenshot)
-
-> _Replace with your own screenshots for better presentation!_
 
 ---
 
@@ -148,62 +149,39 @@ assert not data_set.isnull().any().any(), "Dataset contains null values!"
 
 ---
 
-## 📦 Deployment
+## 📌 Upcoming Work
 
-### Local Deployment
-
-1. Clone the repo
-2. Install dependencies
-3. Run the notebook locally
-
-### Cloud Deployment
-
-- _Deploy on platforms like [Binder](https://mybinder.org/) or [Google Colab](https://colab.research.google.com/) by uploading the notebook and dataset._
+| Week      | Planned Tasks                                      | Status      |
+|-----------|----------------------------------------------------|-------------|
+| **Week 2** | Model selection, training, and evaluation          | ⏳ In progress |
+| **Week 3** | Advanced analytics, dashboard, and reporting       | ❌ Not started |
+| **Week 4** | Final review, documentation, and deployment        | ❌ Not started |
 
 ---
 
-## 🤝 Contributing
+## 📸 Screenshots / Demo
+
+![Demo Placeholder](https://via.placeholder.com/800x400?text=Demo+Screenshot)
+
+> _Replace with your own screenshots for better presentation!_
+
+---
+
+## 🤝 Contribution
 
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 🧾 License
+## 🧾 License and Credits
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License.  
+See [LICENSE](LICENSE) for details.
 
----
-
-## 🙋 FAQ
-
-> **Q:** What data does this project use?  
-> **A:** US industry-wise supply chain GHG emission factors (kg/2018 USD).
-
-> **Q:** Can I use my own dataset?  
-> **A:** Yes! Replace `SupplyChainEmission.csv` with your own file and update the notebook paths.
-
----
-
-## 📞 Contact / Support
-
-- Email: [your.email@example.com](mailto:your.email@example.com)
-- Issues: [GitHub Issues](https://github.com/yourusername/green-skill-internship/issues)
-
----
-
-## 📝 Changelog / Roadmap
-
-- **v1.0**: Initial release with data cleaning, visualization, and summary.
-- **Upcoming**: Advanced filtering, dashboard, and cloud deployment support.
-
----
-
-## 🌐 Community Links
-
+**Credits:**  
 - [AICTE Edunet](https://www.aicte-india.org/)
-- [Discord Community](https://discord.gg/yourcommunity)
-- [Project Website](https://yourprojectwebsite.com)
+- US Supply Chain Emission Dataset
 
 ---
 
-> _Made with ❤️ for green skills and data
+> 📍 **This README will be updated weekly with progress logs and new instructions as the project
