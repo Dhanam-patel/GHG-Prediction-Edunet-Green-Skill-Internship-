@@ -148,39 +148,45 @@ st.markdown("""
         box-shadow: 0 15px 30px rgba(26, 83, 25, 0.25) !important;
     }
 
-    /* Prediction Box */
+    /* Prediction Result Card - Light Minimalist */
     .prediction-container {
-        background: #1A5319;
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(12px);
         padding: 3rem 2rem;
-        border-radius: 24px;
+        border-radius: 28px;
         text-align: center;
-        margin-top: 3rem;
-        border: 1px solid rgba(255,255,255,0.1);
-        box-shadow: 0 20px 40px rgba(26, 83, 25, 0.2);
+        margin-top: 4rem;
+        border: 1px solid rgba(26, 83, 25, 0.08); /* Extremely subtle border */
+        box-shadow: 0 25px 50px -12px rgba(26, 83, 25, 0.12);
     }
 
     .prediction-label {
-        color: #D6EFD8;
-        font-size: 1rem;
+        color: #4F6F52;
+        font-size: 0.95rem;
         text-transform: uppercase;
-        letter-spacing: 2px;
-        font-weight: 600;
-        margin-bottom: 0.5rem;
+        letter-spacing: 3px;
+        font-weight: 700;
+        margin-bottom: 1rem;
     }
 
+
     .prediction-value {
-        color: white;
-        font-size: 4.5rem;
+        color: #1A5319;
+        font-size: 6rem; /* High impact size */
         font-weight: 900;
         margin: 0;
         line-height: 1;
+        letter-spacing: -4px;
     }
 
     .prediction-unit {
-        color: #80AF81;
-        font-size: 0.9rem;
+        color: #2ECC71;
+        font-size: 1.1rem;
+        font-weight: 600;
         margin-top: 0.5rem;
+        opacity: 0.8;
     }
+
 
     /* Footer */
     .footer {
